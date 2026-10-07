@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z craft - صفحة التعريف</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Cairo', sans-serif;
+        }
+        /* Custom smooth glow effects */
+        .card-glow:hover {
+            box-shadow: 0 0 25px rgba(255, 255, 255, 0.08);
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body class="bg-zinc-950 text-zinc-100 min-h-screen flex flex-col items-center justify-center p-4 selection:bg-zinc-700 selection:text-white">
+
+    <main class="w-full max-w-md bg-zinc-900/85 backdrop-blur-xl border border-zinc-800/80 rounded-3xl p-6 sm:p-8 shadow-2xl flex flex-col items-center">
+        
+        <!-- Site Title & Subtitle (Without Image) -->
+        <div class="text-center mb-8 mt-2">
+            <h1 class="text-3xl sm:text-4xl font-black tracking-wider text-white mb-2 drop-shadow-md">
+                Z craft
+            </h1>
+            <p class="text-zinc-400 text-sm font-medium">الموقع التعريفي الرسمي</p>
+        </div>
+
+        <div class="w-full flex flex-col gap-4">
+            
+            <!-- Discord Link Box -->
+            <a href="https://discordapp.com/users/1295663324561805317" target="_blank" rel="noopener noreferrer" 
+               class="card-glow w-full bg-zinc-900/90 hover:bg-zinc-850 border border-zinc-800 rounded-2xl p-4 flex items-center justify-between transition-all duration-300 group">
+                <!-- Right Side: Discord Logo -->
+                <div class="w-10 h-10 rounded-xl bg-zinc-950 flex items-center justify-center text-zinc-300 group-hover:text-indigo-400 transition-colors shadow-sm">
+                    <i class="fa-brands fa-discord text-xl"></i>
+                </div>
+                <!-- Center: Text -->
+                <span class="font-bold text-lg text-zinc-100 tracking-wide flex-1 text-center">Discord</span>
+                <!-- Left Side: Arrow/Indicator -->
+                <div class="w-8 h-8 flex items-center justify-center text-zinc-600 group-hover:text-zinc-300 transition-transform group-hover:-translate-x-1">
+                    <i class="fa-solid fa-chevron-left text-sm"></i>
+                </div>
+            </a>
+
+            <!-- Instagram Link Box -->
+            <a href="https://www.instagram.com/all.cool00?stkn=aHRlNDE3ZHkxdWti" target="_blank" rel="noopener noreferrer" 
+               class="card-glow w-full bg-zinc-900/90 hover:bg-zinc-850 border border-zinc-800 rounded-2xl p-4 flex items-center justify-between transition-all duration-300 group">
+                <!-- Right Side: Instagram Logo -->
+                <div class="w-10 h-10 rounded-xl bg-zinc-950 flex items-center justify-center text-zinc-300 group-hover:text-pink-400 transition-colors shadow-sm">
+                    <i class="fa-brands fa-instagram text-xl"></i>
+                </div>
+                <!-- Center: Text -->
+                <span class="font-bold text-lg text-zinc-100 tracking-wide flex-1 text-center">Instagram</span>
+                <!-- Left Side: Arrow/Indicator -->
+                <div class="w-8 h-8 flex items-center justify-center text-zinc-600 group-hover:text-zinc-300 transition-transform group-hover:-translate-x-1">
+                    <i class="fa-solid fa-chevron-left text-sm"></i>
+                </div>
+            </a>
+
+        </div>
+
+        <footer class="mt-8 text-center text-xs text-zinc-600 font-medium">
+            &copy; 2026 Z craft. جميع الحقوق محفوظة.
+        </footer>
+
+    </main>
+
+</body>
+</html>
